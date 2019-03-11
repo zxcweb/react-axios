@@ -1,5 +1,6 @@
 import React,{ Component } from 'react';
 import * as actions from '../store/actions';
+import { Button } from 'antd';
 
 import { connect } from 'react-redux';
 
@@ -14,7 +15,7 @@ class Test extends Component {
   render(){
     return (
       <div>
-        <button onClick={this.sendTo}>点击请求内容</button>
+        <Button onClick={this.sendTo} type="primary">点击请求内容</Button>
         <div>
           我是请求的内容：{this.props.msg}
         </div>

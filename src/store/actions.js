@@ -12,9 +12,10 @@ export function getMsg(){
   return (dispatch)=>{
     axios.get("/msg",{})
     .then((data)=>{
+      console.log(data)
       dispatch({
         type:GET_MSG,
-        msg:data.msg
+        msg:data.data.msg
       }) 
     })
   } 

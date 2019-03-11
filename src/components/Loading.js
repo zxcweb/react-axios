@@ -3,12 +3,7 @@ import { Spin } from 'antd';
 import { connect } from 'react-redux';
 
 function Loading(props){
-  let display = 'none';
-  if(props.loading){
-    display = 'flex';
-  }else{
-    display = 'none';
-  }
+  let display = props.loading?'flex':'none';
   return (
     <div style={{...style,display}}>
       <Spin tip="Loading..." size="large"></Spin>

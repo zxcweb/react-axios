@@ -1,3 +1,10 @@
+# 使用技术栈
+react + redux + axios + antd
+
+- [知乎链接]()
+
+**Note: 此实例仅仅为了演示react封装axios拦截，做了一个请求添加loading的效果**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
