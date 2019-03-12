@@ -1,7 +1,7 @@
 # 使用技术栈
 react + redux + axios + antd
 
-- [知乎链接]()
+- [知乎链接](https://zhuanlan.zhihu.com/p/58810862)
 
 **Note: 此实例仅仅为了演示react封装axios拦截，做了一个请求添加loading的效果**
 
